@@ -18,7 +18,7 @@
 - [ ] Provide Jest specs for at least one component in the app
 - [x] Use Typescript
 - [x] Use Suspense. **Suspense is used both as a lazy load fallback as well as with a suspender and resource.  See App.tsx and Layout.tsx for both implementations**
-- [ ] Use a custom theme
+- [x] Use a custom theme
 - [ ] 80% test coverage
 - [x] Use global state via redux - data down, events up (Required if applying for senior-level position)
 
