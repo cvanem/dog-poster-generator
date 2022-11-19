@@ -5,10 +5,8 @@ export default function GenerateButton() {
   const updateState = useUpdateState();
   const handleOpen = () => updateState({ open: true });
   return (
-    <>
-      <Button variant='contained' size='large' color='success' onClick={handleOpen}>
-        Generate
-      </Button>
-    </>
+    <Button variant='contained' size='large' color='success' onClick={handleOpen}>
+      Generate
+    </Button>
   );
 }
