@@ -14,7 +14,7 @@
 **Technical Requirements**
 - [x] Use [Material UI](https://material-ui.com/) for the UI components
 - [x] Use the [Stanford Dog API](https://dog.ceo/dog-api/documentation/) for data, INCLUDING dropdown population 
-- [ ] Use a least one [Higher Order Component](https://reactjs.org/docs/higher-order-components.html)
+- [x] Use a least one [Higher Order Component](https://reactjs.org/docs/higher-order-components.html). **See ImagesModal.tsx default export for usage of HOC**
 - [ ] Provide Jest specs for at least one component in the app
 - [x] Use Typescript
 - [ ] Use Suspense
