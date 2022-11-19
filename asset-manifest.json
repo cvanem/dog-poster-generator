@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.b73c0a5e.js",
-    "static/js/222.52e21940.chunk.js": "/static/js/222.52e21940.chunk.js",
-    "static/js/988.e00ba563.chunk.js": "/static/js/988.e00ba563.chunk.js",
-    "static/js/921.4efb46cc.chunk.js": "/static/js/921.4efb46cc.chunk.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.b73c0a5e.js.map": "/static/js/main.b73c0a5e.js.map",
-    "222.52e21940.chunk.js.map": "/static/js/222.52e21940.chunk.js.map",
-    "988.e00ba563.chunk.js.map": "/static/js/988.e00ba563.chunk.js.map",
-    "921.4efb46cc.chunk.js.map": "/static/js/921.4efb46cc.chunk.js.map"
+    "main.css": "/dog-poster-generator/static/css/main.e6c13ad2.css",
+    "main.js": "/dog-poster-generator/static/js/main.eb89304a.js",
+    "static/js/222.52e21940.chunk.js": "/dog-poster-generator/static/js/222.52e21940.chunk.js",
+    "static/js/988.e00ba563.chunk.js": "/dog-poster-generator/static/js/988.e00ba563.chunk.js",
+    "static/js/921.4efb46cc.chunk.js": "/dog-poster-generator/static/js/921.4efb46cc.chunk.js",
+    "index.html": "/dog-poster-generator/index.html",
+    "main.e6c13ad2.css.map": "/dog-poster-generator/static/css/main.e6c13ad2.css.map",
+    "main.eb89304a.js.map": "/dog-poster-generator/static/js/main.eb89304a.js.map",
+    "222.52e21940.chunk.js.map": "/dog-poster-generator/static/js/222.52e21940.chunk.js.map",
+    "988.e00ba563.chunk.js.map": "/dog-poster-generator/static/js/988.e00ba563.chunk.js.map",
+    "921.4efb46cc.chunk.js.map": "/dog-poster-generator/static/js/921.4efb46cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b73c0a5e.js"
+    "static/js/main.eb89304a.js"
   ]
 }
