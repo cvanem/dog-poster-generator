@@ -50,7 +50,7 @@ export const globalSlice = createSlice({
     remove: (state, action: PayloadAction<SelectBreed>) => ({
       ...state,
       selected: Object.keys(state.selected)
-        .filter(k => state.selected[k].id !== action.payload.id)
+        .filter(k => k !== action.payload.id)
         .reduce((t, c) => ({ ...t, [c]: state.selected[c] }), {})
     })
   }
