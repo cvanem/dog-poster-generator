@@ -1,15 +1,15 @@
 # dog-poster-generator
 
 **Tasks/Requirements**
-- [ ] Be able to specify 1-N breed/sub-breed combinations
+- [x] Be able to specify 1-N breed/sub-breed combinations
     - [x] Breed drobdown
     - [x] Sub-breed dropdown
     - [x] # of Images input    
     - [x] Click plus to add a row
-    - [x] Click a 'generate' button
-    - [x] Display a modal containing the requested images
-        - [x] tiled in a grid, randomly sorted.
-        - [ ] randomly sorted.
+- [x] Click a 'generate' button
+- [x] Display a modal containing the requested images
+    - [x] tiled in a grid, randomly sorted.
+    - [x] randomly sorted.
         
 **Technical Requirements**
 - [x] Use [Material UI](https://material-ui.com/) for the UI components
