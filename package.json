@@ -2,6 +2,7 @@
   "name": "dog-poster-generator",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://cvanem.github.io/dog-poster-generator",
   "dependencies": {
     "@emotion/cache": "11.7.1",
     "@emotion/react": "11.9.0",
