@@ -8,10 +8,10 @@ const isDefined = value => value !== undefined && value !== null;
 const enforceMinMax = (min, max, value) =>
   !isEmpty(value) ? (isDefined(min) && Number(value) < Number(min) ? min : isDefined(max) && Number(value) > Number(max) ? max : value) : value;
 
-function WholeNumberFormat({ inputRef, onChange, min, max, thousandSeparator = ',', ...other }) {
+const WholeNumberFormat = React.forwardRef<HTMLInputElement>(({ onChange, min, max, thousandSeparator = ',', ...other }: any, ref) => {
   return (
     <NumberFormat
-      getInputRef={inputRef}
+      getInputRef={ref}
       onValueChange={values => {
         onChange({
           target: {
@@ -26,7 +26,7 @@ function WholeNumberFormat({ inputRef, onChange, min, max, thousandSeparator = '
       {...other}
     />
   );
-}
+});
 
 export default function WholeNumber({
   value,
@@ -43,8 +43,6 @@ export default function WholeNumber({
     <TextField
       onChange={handleChange}
       value={value}
-      margin='dense'
-      size='small'
       InputProps={{
         inputComponent: WholeNumberFormat as any,
         ...InputProps

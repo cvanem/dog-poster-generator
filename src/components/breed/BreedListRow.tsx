@@ -12,14 +12,14 @@ export default function BreedListRow({ id, breed, subBreed, count, canDelete = t
   const handleAdd = React.useCallback(() => selectBreed({}), [selectBreed]);
   const handleRemove = React.useCallback(() => removeBreed({ id }), [id, removeBreed]);
   return (
-    <Grid container key={id} spacing={2} sx={{ mt: 1 }} alignItems='center'>
+    <Grid container spacing={2} sx={{ mt: 1 }} alignItems='center'>
       <Grid item xs>
         <BreedSelector id={id} value={breed} />
       </Grid>
       <Grid item xs>
         <SubBreedSelector id={id} value={subBreed} />
       </Grid>
-      <Grid item sx={{ width: 132, pb: 0.25 }}>
+      <Grid item sx={{ width: 132 }}>
         <ImageCountWholeNumber id={id} value={count} />
       </Grid>
       <Grid item sx={{ width: 52 }}>

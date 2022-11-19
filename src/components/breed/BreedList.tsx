@@ -24,7 +24,9 @@ export default function BreedList() {
       </Grid>
       <Grid item xs={12}>
         {Object.keys(selected).map((k, i) => (
-          <BreedListRow id={k} {...selected[k]} canDelete={Object.keys(selected).length > 1} isLast={i === Object.keys(selected).length - 1} />
+          <div key={k}>
+            <BreedListRow id={k} {...selected[k]} canDelete={Object.keys(selected).length > 1} isLast={i === Object.keys(selected).length - 1} />
+          </div>
         ))}
       </Grid>
     </Grid>

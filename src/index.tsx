@@ -5,9 +5,11 @@ import { store } from './store/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import { printHeader } from './helpers';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
+printHeader();
 
 root.render(
   <React.StrictMode>
