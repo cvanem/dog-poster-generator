@@ -12,7 +12,7 @@ const timerResource = wrapPromise(countDownTimer(3));
 function Layout() {
   timerResource.read(); // Ensure the loading screen is shown for at least 3 seconds
   return (
-    <Container sx={{ mt: 2 }} data-testid="layout-container" >
+    <Container sx={{ mt: 2 }} data-testid='layout-container'>
       <Header />
       <Divider sx={{ mb: 2 }} />
       <BreedList />

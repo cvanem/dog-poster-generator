@@ -1,3 +1,5 @@
+export const publicUrl = path => process.env.PUBLIC_URL + path; // For correct url mapping when hosted on GH pages
+
 export function isEmpty(str: any) {
   return !str || 0 === str.length;
 }
